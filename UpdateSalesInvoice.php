@@ -3,7 +3,8 @@ ini_set('display_errors','1');
 ini_set('display_startup_errors','1');
 error_reporting (E_ALL); 
 
-
+use SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage = new CodeCoverage;
       
 require_once "PostXml.php";
 require_once "PostXml2.php";
